@@ -1,0 +1,22 @@
+a:hover {color: #3498db;}
+
+.btn-dark:hover {color: #3498db;}
+.btn-dark.selected {color: #3498db;}
+
+.title {color: #3498db;}
+.home-content:before {border-left: 10px solid #3498db;border-top: 10px solid #3498db;}
+.home-content:after{border-right: 10px solid #3498db;border-bottom: 10px solid #3498db;}
+
+#about.center .about-box:hover .ab-icon {color: #3498db;}
+.about-box:hover .ab-icon i{color: #3498db;}
+.ab-icon i {color: #3498db;}
+
+.selected {color: #3498db;}
+
+#video:hover .play {color: #3498db;}
+
+.copyright i {color: #3498db;}
+
+#footer-social > li > a:hover {color: #3498db;}
+
+.scroll-to-top { background: #3498db url("../images/utility/go-to-top.png") no-repeat scroll center center; }

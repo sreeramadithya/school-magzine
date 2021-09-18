@@ -1,0 +1,22 @@
+a:hover {color: #e6a86a;}
+
+.btn-dark:hover {color: #e6a86a;}
+.btn-dark.selected {color: #e6a86a;}
+
+.title {color: #e6a86a;}
+.home-content:before {border-left: 10px solid #e6a86a;border-top: 10px solid #e6a86a;}
+.home-content:after{border-right: 10px solid #e6a86a;border-bottom: 10px solid #e6a86a;}
+
+#about.center .about-box:hover .ab-icon {color: #e6a86a;}
+.about-box:hover .ab-icon i{color: #e6a86a;}
+.ab-icon i {color: #e6a86a;}
+
+.selected {color: #e6a86a;}
+
+#video:hover .play {color: #e6a86a;}
+
+.copyright i {color: #e6a86a;}
+
+#footer-social > li > a:hover {color: #e6a86a;}
+
+.scroll-to-top { background: #e6a86a url("../images/utility/go-to-top.png") no-repeat scroll center center; }

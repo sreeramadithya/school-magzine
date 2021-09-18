@@ -1,0 +1,22 @@
+a:hover {color: #e74c3c;}
+
+.btn-dark:hover {color: #e74c3c;}
+.btn-dark.selected {color: #e74c3c;}
+
+.title {color: #e74c3c;}
+.home-content:before {border-left: 10px solid #e74c3c;border-top: 10px solid #e74c3c;}
+.home-content:after{border-right: 10px solid #e74c3c;border-bottom: 10px solid #e74c3c;}
+
+#about.center .about-box:hover .ab-icon {color: #e74c3c;}
+.about-box:hover .ab-icon i{color: #e74c3c;}
+.ab-icon i {color: #e74c3c;}
+
+.selected {color: #e74c3c;}
+
+#video:hover .play {color: #e74c3c;}
+
+.copyright i {color: #e74c3c;}
+
+#footer-social > li > a:hover {color: #e74c3c;}
+
+.scroll-to-top { background: #e74c3c url("../images/utility/go-to-top.png") no-repeat scroll center center; }
