@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Coming Soon 8</title>
+	<title>We See We - Comming soon</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -22,6 +22,29 @@
 <!--===============================================================================================-->
 </head>
 <body>
+	<script type="module">
+		// Import the functions you need from the SDKs you need
+		import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.1/firebase-app.js";
+		import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.4.1/firebase-analytics.js";
+		// TODO: Add SDKs for Firebase products that you want to use
+		// https://firebase.google.com/docs/web/setup#available-libraries
+	  
+		// Your web app's Firebase configuration
+		// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+		const firebaseConfig = {
+		  apiKey: "AIzaSyA-9PLjtHLEXYBtpOfdDiYdSjrPe581xgk",
+		  authDomain: "vcv-school-magazine.firebaseapp.com",
+		  projectId: "vcv-school-magazine",
+		  storageBucket: "vcv-school-magazine.appspot.com",
+		  messagingSenderId: "734980759239",
+		  appId: "1:734980759239:web:fc7c654f4bcb8c803128e2",
+		  measurementId: "G-X8MM0441TH"
+		};
+	  
+		// Initialize Firebase
+		const app = initializeApp(firebaseConfig);
+		const analytics = getAnalytics(app);
+	  </script>
 	
 	
 	<div class="bg-img1 overlay1 size1 flex-w flex-c-m p-t-55 p-b-55 p-l-15 p-r-15" style="background-image: url('images/bg01.jpg');">
