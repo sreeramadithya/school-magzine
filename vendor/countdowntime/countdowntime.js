@@ -5,13 +5,13 @@
 
       countdown100: function(options) {
         var defaults = {
-          timeZone: "",
-          endtimeYear: 0,
-          endtimeMonth: 0,
-          endtimeDate: 0,
-          endtimeHours: 0,
-          endtimeMinutes: 0,
-          endtimeSeconds: 0,
+          timeZone: "Asia/Calcutta",
+          endtimeYear: 2022,
+          endtimeMonth: 1,
+          endtimeDate: 1,
+          endtimeHours: 1,
+          endtimeMinutes: 1,
+          endtimeSeconds: 1,
         }
 
         var options =  $.extend(defaults, options);
