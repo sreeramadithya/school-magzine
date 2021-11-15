@@ -1,3 +1,3 @@
-# we see we
-school magazine of V.C.V Shishu Vidyodaya
-coded by the magazine team, for the website for the school magazine
+# we see we build
+the construction for the magazine site
+this site will not be displayed in the website, the website will show "comming soon" only. go to the branch: https://github.com/sreeramadithya/school-magzine/tree/maintenence to see the current "comming soon page"
