@@ -13,7 +13,7 @@ Message: ".$message."
 
 ";
 
-mail ("example@gmail.com" , "New Message", $email_message);
+mail ("weseewemagazine@outlook.com" , "Response from website", $email_message);
 header("location: ../../mail-success.html");
 ?>
 
