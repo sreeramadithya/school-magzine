@@ -57,48 +57,6 @@
                                 <span class="toggler-icon"></span>
                                 <span class="toggler-icon"></span>
                             </button>
-                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
-                                <ul id="nav" class="navbar-nav ms-auto">
-                                    <li class="nav-item">
-                                        <a href="index.html" class="active" aria-label="Toggle navigation">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse"
-                                            data-bs-target="#submenu-1-1" aria-controls="navbarSupportedContent"
-                                            aria-expanded="false" aria-label="Toggle navigation">Pages</a>
-                                        <ul class="sub-menu collapse" id="submenu-1-1">
-                                            <li class="nav-item"><a href="about-us.html">About Us</a></li>
-                                            <li class="nav-item"><a href="gallery.html">Gallery</a></li>
-                                            <li class="nav-item"><a href="pricing.html">Pricing</a></li>
-                                            <li class="nav-item"><a href="sponsors.html">Sponsors</a></li>
-                                            <li class="nav-item"><a href="mail-success.html">Mail Success</a></li>
-                                            <li class="nav-item"><a href="404.html">404 Error</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="schedule.html" aria-label="Toggle navigation">Schedule</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="speakers.html" aria-label="Toggle navigation">Speakers</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse"
-                                            data-bs-target="#submenu-1-2" aria-controls="navbarSupportedContent"
-                                            aria-expanded="false" aria-label="Toggle navigation">Blog</a>
-                                        <ul class="sub-menu collapse" id="submenu-1-2">
-                                            <li class="nav-item"><a href="blog-grid.html">Blog Grid</a>
-                                            </li>
-                                            <li class="nav-item"><a href="blog-single.html">Blog Single</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="contact.html" aria-label="Toggle navigation">Contact</a>
-                                    </li>
-                                </ul>
-                            </div> <!-- navbar collapse -->
-                            <div class="button">
-                                <a href="pricing.html" class="btn">Get Tickets<i class="lni lni-ticket"></i></a>
-                            </div>
                         </nav>
                         <!-- End Navbar -->
                     </div>
@@ -118,14 +76,11 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 offset-lg-3 col-md-12 col-12">
                     <div class="hero-content">
-                        <h5 class="wow zoomIn" data-wow-delay=".2s"><i class="lni lni-map-marker"></i> Waterfront Hotel,
-                            London</h5>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">The largest conference in europe 2023</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. deleniti voluptatum! Natus
-                            beatae laborum veniam distinctio.</p>
+                        <h5 class="wow zoomIn" data-wow-delay=".2s"><i class="lni lni-map-marker"></i> V.C.V Shishu Vidyodaya</h5>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">we see we</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">The School magazine of VCV Shishu Vidyodaya</p>
                         <div class="button wow fadeInUp" data-wow-delay=".8s">
-                            <a href="pricing.html" class="btn ">Buy Ticket Now</a>
+                            <a href="releases.html" class="btn ">View releases</a>
                         </div>
                     </div>
                 </div>
@@ -142,7 +97,7 @@
                     <div class="box-head">
                         <div class="box-content">
                             <div class="box">
-                                <h1 id="days">000</h1>
+                                <h1 id="days">8</h1>
                                 <h2 id="daystxt">Days</h2>
                             </div>
                             <div class="box">
@@ -171,10 +126,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title">
-                        <h3 class="wow zoomIn" data-wow-delay=".2s">Why join eventGrids?</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Why you should Join Event</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">There are many variations of passages of Lorem
-                            Ipsum available, but the majority have suffered alteration in some form.</p>
+                        <h3 class="wow zoomIn" data-wow-delay=".2s">What's the features?</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Interesting features</h2>
                     </div>
                 </div>
             </div>
@@ -585,7 +538,7 @@
 
             days <= 99 ? days = `0${days}` : days;
             days <= 9 ? days = `00${days}` : days;
-            hours <= 9 ? hours = `0${hours}` : hours;
+            hours <= 9 ? hours = `9${hours}` : hours;
             minutes <= 9 ? minutes = `0${minutes}` : minutes;
             seconds <= 9 ? seconds = `0${seconds}` : seconds;
 
